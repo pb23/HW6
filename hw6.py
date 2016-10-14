@@ -425,7 +425,7 @@ def longest_unique_substring(word):
 # Three Sum
 #
 # Given an array S of n integers, are there elements a, b, c in S such that
-# a+b+c = 0? Find all unique triplets in the array which gives the sum of zero.
+# a+b+c = 0? Find all unique triplets in the array which gives the sum of target.
 # return a 2d list, where all inner lists are triplets. There may be more than
 # one pair of triplets.
 #
