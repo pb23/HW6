@@ -402,7 +402,7 @@ def longest_palindrome_substring(word):
 #   Input: "asdfawefABCDEFaabasfeasf"
 #
 #   Output:
-#   "ABCDEF"
+#   "wefABCDEF"
 #
 # Example 2:
 #   Input: "AA"
