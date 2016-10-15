@@ -392,6 +392,7 @@ def longest_palindrome_substring(word):
 # Given a string, find the longest unique substring
 #
 # Ideal runtime: o(n). full credit only given for o(n).
+# Do not consider case. Therefore, 'A' and 'a' are considered the same character
 #
 # RESTRICTIONS:
 # There is guarunteed to be exactly 1 longest unique substring
@@ -399,10 +400,10 @@ def longest_palindrome_substring(word):
 # Example(s)
 # ----------
 # Example 1:
-#   Input: "asdfawefABCDEFaabasfeasf"
+#   Input: "zzAabcdefFgg"
 #
 #   Output:
-#   "wefABCDEF"
+#   "abcdef"
 #
 # Example 2:
 #   Input: "AA"
