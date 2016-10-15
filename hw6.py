@@ -314,9 +314,9 @@ def string_my_one_true_love(string):
 # there are n/4 A's, T's, C's, and G's. Our technology allows us to "flash" the genes,
 # replacing a subsequence of a gene with anything we want.
 #
-# Given a arbiturary gene, find the length of the minimum subsequence of the gene we need to flash
-# to get a good gene.
-#
+# Given a arbiturary gene, find the length of the minimum substring of the string representation of the 
+# gene we need to flash to get a good gene.
+# 
 #
 # Restrictions
 # ------------
@@ -348,7 +348,7 @@ def string_my_one_true_love(string):
 # Returns
 # -------
 # int
-#    The length of the minimum subsequence in order to make the gene a good gene.
+#    The length of the minimum substring in order to make the gene a good gene.
 def gene_manipulation(gene):
     pass
 
