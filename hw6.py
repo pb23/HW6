@@ -360,6 +360,7 @@ def gene_manipulation(gene):
 #
 # RESTRICTIONS:
 # There is guarunteed to be exactly 1 longest palindrome
+# You must consider case. For example, the string "aBBA" is not a palindrome (but "BB" is!)
 #
 # Example(s)
 # ----------
